@@ -25,7 +25,7 @@ const users = async () => {
     gmail.href = `mailto:${datos.email}`;
 }
 
-// eventos
+// evento
 btn.addEventListener('click', users);
 
 
@@ -33,4 +33,18 @@ btn.addEventListener('click', users);
 btnSwitch.addEventListener('click', () => {
   document.body.classList.toggle('white');
   btnSwitch.classList.toggle('active');
+
+  if(document.body.classList.contains('white')) {
+    localStorage.setItem('white-md', 'true');
+  } else {
+    localStorage.setItem('white-md', 'false');
+  }
 });
+
+if(localStorage.getItem('white-md') === 'true') {
+  document.body.classList.add('white');
+  btnSwitch.classList.add('active');
+} else {
+  document.body.classList.remove('white');
+  btnSwitch.classList.remove('active');
+}
