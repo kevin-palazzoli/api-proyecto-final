@@ -13,24 +13,73 @@
     <title>usando una api</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">
+                    inicio
+                </a>
+            </li>
+            <li>
+                <a href="/subpagina/documentos.html">
+                    documentos
+                </a>
+            </li>
+        </ul>
+    </nav>
     <div class="content-one">
-        <img id="profile" src="https://randomuser.me/api/portraits/men/92.jpg" alt="">
-        <h2 id="username">yosef</h2>
+        <div class="profile">
+            <img id="profile" src="https://randomuser.me/api/portraits/women/87.jpg" alt="">
+            <h2 id="username">
+                Minerva
+            </h2>
+            <h3>
+                (diseñadora gráfica Senior)
+            </h3>
+        </div>
+        <section class="content-text">
+            <h3>
+                Sobre mi
+            </h3>
+            <p>
+                Diseñadora gráfica profesional con experiencia en las áreas de fotografía, 
+                diseño web, tipografía, ilustración y animación. 
+                Me considero una persona proactiva, organizada, responsable capaz de resolver cualquier problema de manera creativa.
+            </p>
+        </section>
         <div class="content-two">
-            <p>Pais<span class="space" id="nationality">MX</span></p>
-            <p>calle y Numero<span class="space" id="street">Rosalia Maria</span><span id="streetTwo">523</span></p>
+            <p>
+                Pais
+                <span class="space" id="nationality">
+                    MX
+                </span>
+            </p>
+            <p>
+                calle y Numero
+                <span class="space" id="street">
+                    CIRCUITO TAMAULIPAS 9456
+                </span>
+                <span id="streetTwo">
+                    523
+                </span>
+            </p>
         </div>
 
-        <nav class="content-three">
-            <ul>
-                <li>
-                    <a id="mobile" title="" href="tel:910-177-734"><span><i class="fa-solid fa-phone fa-2x"></i></span></a>
-                </li>
-                <li>
-                    <a id="gmail" title="" href="mailto:josef.herrero@example.com"><span><i class="fa-solid fa-envelope fa-2x"></i></span></a>
-                </li>
-            </ul>
-        </nav>
+
+        <div class="content-three">
+            <div>
+                <a id="mobile" title="" href="tel:(642) 175 4434">
+                    <span>
+                        <i class="fa-solid fa-phone fa-2x"></i>
+                    </span>
+                </a>
+                <a id="gmail" title="" href="mailto:minerva.rosas@example.com">
+                    <span>
+                        <i class="fa-solid fa-envelope fa-2x"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
     </div>
 
     <div class="content-four">
@@ -47,6 +96,6 @@
         </div>
     </div>
     
-    <script src="Javascript.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
