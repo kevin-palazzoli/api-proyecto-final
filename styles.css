@@ -47,6 +47,10 @@ nav ul, a {
     padding: 1% 2%;
     text-shadow: 1px 1px 15px black, 1px 1px 30px white;
 }
+
+body.white h3 {
+    color: #000000b3;
+}
   
 img {
     border-radius: 50%;
@@ -102,6 +106,10 @@ body.white .content-two {
     border-color: hwb(0deg 13% 87%);
     padding: 1%;
     text-align: -webkit-center;
+}
+
+body.white .content-text {
+    border-color: hwb(0deg 79.84% 20.16%);
 }
 
 .content-text p {
